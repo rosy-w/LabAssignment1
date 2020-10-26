@@ -26,3 +26,6 @@ form{
 .btn{
   margin-bottom: 20px;
 }
+#lblpp{
+  text-align: right !important;
+}
