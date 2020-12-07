@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" href="Order.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div>
+    <div>
+        <h1 class="text-center">Order Online</h1>
+    </div>
+    <div class="row p-5">
+        <div class="col-md-4">
+            <figure class="card card-product">
+                <div class="img-wrap"><img src="IMAGES\greekmeze-chickensouvlaki.jpg"></div>
+                <figcaption class="info-wrap">
+                        <h4 class="title">Chicken Slouvaki</h4>
+                        <p class="desc">Delicious chicken slouvaki with sweet tzatziki sauce</p>
+                        
+                </figcaption>
+                <div class="bottom-wrap">
+                        
+                    <button onclick="myalert()"class="btn btn-sm btn-primary float-right">Order Now</button>	
+                    <div
+                     class="price-wrap h5">
+                        <span class="price-new">Ksh180</span> <del class="price-old">Ksh200</del>
+                    </div> <!-- price-wrap.// -->
+                    <input type="number" placeholder="1">
+                </div> <!-- bottom-wrap.// -->
+            </figure>
+        </div> <!-- col // -->
+        <div class="col-md-4">
+            <figure class="card card-product">
+                <div class="img-wrap"><img src="IMAGES\cafefriesandsandwich.jpg"> </div>
+                <figcaption class="info-wrap">
+                        <h4 class="title">Chicken and Cheese Sandwich</h4>
+                        <p class="desc">Comes with Fries as a side</p>
+                        
+                </figcaption>
+                <div class="bottom-wrap">
+                        
+                        <button onclick="myalert()"class="btn btn-sm btn-primary float-right">Order Now</button>	
+                        
+                        <div class="price-wrap h5">
+                            <span class="price-new">Ksh180</span> <del class="price-old">Ksh200</del>
+                        </div> <!-- price-wrap.// -->
+                        <input type="number" placeholder="1">
+                </div> <!-- bottom-wrap.// -->
+            </figure>
+        </div> <!-- col // -->
+        <div class="col-md-4">
+            <figure class="card card-product">
+                <div class="img-wrap"><img src="IMAGES\foodimagejajang.jpg"></div>
+                <figcaption class="info-wrap">
+                        <h4 class="title">Janjangmyeon</h4>
+                        <p class="desc">Noodles in Black Bean Sauce</p>
+                        
+                </figcaption>
+                <div class="bottom-wrap">
+                        
+                        <button onclick="myalert()"class="btn btn-sm btn-primary float-right">Order Now</button>	
+                        
+                        <div class="price-wrap h5">
+                            <span class="price-new">Ksh180</span> <del class="price-old">Ksh200</del>
+                        </div> <!-- price-wrap.// -->
+                        <input type="number" placeholder="1">
+                </div> <!-- bottom-wrap.// -->
+            </figure>
+        </div> <!-- col // -->
+    </div> <!-- row.// -->  
+</div>    
+
+    
+<script> 
+    function myalert() { 
+        alert("This feature is coming soon!"); 
+    } 
+</script> 
+</body>
+</html>
